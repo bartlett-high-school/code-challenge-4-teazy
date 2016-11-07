@@ -1,11 +1,3 @@
-<!--- Code Challenge #4 | CSS Floats | 25 Points Possible
-
-Add CSS inside the <style> tag below to make the 2 divs float next to each other. You don't need to make any changes to the HTML code. You can do it!
-
-READ THIS FOR SUCCESS IN LIFE AND THIS CODE CHALLENGE :: Copy and paste the code below into a new sublime document. Save it to your desktop and load it in a browser as you work so that you can see your code in action. When you finish, copy and paste it back into github and commit your changes. Zing! 
-
--->
-
 <!DOCTYPE html>
 <html lang="en-US">
   
@@ -28,7 +20,19 @@ READ THIS FOR SUCCESS IN LIFE AND THIS CODE CHALLENGE :: Copy and paste the code
   			width: 80%;
   			margin: 50px auto;
   		}
-  	</style>
+
+      div.left {
+        float:left;
+        width: 50%;
+        }
+        div.right{
+          float:right;
+          width: 50%;
+       }
+       .clear{
+        clear: 50%
+       }
+    </style>
 
   </head>
   
@@ -48,6 +52,10 @@ READ THIS FOR SUCCESS IN LIFE AND THIS CODE CHALLENGE :: Copy and paste the code
   		</div>
   		<div class="clear"></div>
   	</section>
+    
+  
+  
+
 
   	<footer>
   		<p>Web Design Code Challenge #4.</p>
